@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Financiamento</title>
+    <link rel="stylesheet" href="financ.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Simulador de Financiamento Sistema SAC</h1>
+        </header>
+        <div>
+            <input id="textoValor" type="text" placeholder="Valor do Bem"><br>
+            <input id="textoEntrada" type="text" placeholder="Valor da Entrada"><br>
+            <input id="textoTaxadeJurosr" type="text" placeholder="Taxa de Juros (%)"><br>
+            <input id="textoPrazor" type="text" placeholder="Prazo (em neses)"><br>
+            <button id="botaoCalcular">Calcular</button>
+            <input id="ComCarencia" type="checkbox">Com Carência?
+            <select id="listasuspensa" hidden>
+                <option value="2">2 meses</option>
+                <option value="3">3 meses</option>
+                <option value="4">4 meses</option>
+            </select>
+        </div>
+        <footer>
+            <script src="financ.js"></script>
+        </footer>
+
+
+
+    </main>
+    
+    
+</body>
+</html>
