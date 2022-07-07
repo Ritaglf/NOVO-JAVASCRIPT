@@ -1,0 +1,7 @@
+body {
+    display: flexbox;
+    background-color: rgb(10, 10, 75);
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 11px;
+}
