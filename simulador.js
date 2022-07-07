@@ -1,4 +1,4 @@
-const comCarencia = document.querySelector('comCarencia');
+const comCarencia = document.querySelector(´#comCarencia´);
 const listaSuspensa = document.querySelector('listaSyspensa');
 
 comCarencia.addEventListener('change', function() {
