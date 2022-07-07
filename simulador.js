@@ -1,11 +1,11 @@
-const comCarencia = document.querySelector('#comCarencia');
-const listasuspensa = document.querySelector('#listasuspensa');
+const comCarencia = document.querySelector('comCarencia');
+const listaSuspensa = document.querySelector('listaSyspensa');
 
-comCarencia.addEventListener('change',function() {
-    if (this.checked) {
-        listasuspensa.removeAttribute('hidden');
-        else {
-            listasuspensa.setAttribute('hidden');
-        }
+comCarencia.addEventListener('change', function() {
+    if (this.cheked) {
+        listaSuspensa.removeAttribute('hidden');
+    } else {
+        listaSuspensa.setAttribute('hidden', 'hidden');
     }
 });
+
